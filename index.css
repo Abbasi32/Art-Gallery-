@@ -1,0 +1,73 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    width: 1439px;
+    height: 2554px;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.modern_gallery {
+    width: 1275px;
+    height: 800px;
+    flex-shrink: 0;
+}
+.modern_black{
+    width: 450px;
+height: 799px;
+flex-shrink: 0;
+}
+.modern_black p{
+    width: 514px;
+    color: var(--White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Heading (XL) */
+    font-family: Big Shoulders Display;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px; /* 91.667% */
+    /* text-transform: uppercase; */
+}
+ 
+.image_modern_art {
+    width: 540px;
+    height: 800px;
+    flex-shrink: 0;
+}
+.modern_art_txt{
+    color: var(--Dark-Grey, #444);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Body (M) */
+    font-family: Outfit;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px; /* 145.455% */
+}
+.location_art_txt{
+    width: 204px;
+    height: 72px;
+    flex-shrink: 0;
+}
+.location_art_txt h3{ 
+color: var(--White, #FFF);
+font-family: Big Shoulders Display;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 3.636px;
+}
+.location_btn_logo{
+    width: 56px;
+    height: 72px;
+    flex-shrink: 0;
+}
+.img1 {
+    
+}
